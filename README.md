@@ -1,3 +1,24 @@
+# Drone Sound Classifier 🎧🛸
+
+This project was developed for the **London Defence Tech Hackathon 2025**. It uses machine learning to classify audio recordings into three categories:
+- 🚁 Helicopter
+- 🛸 Drone
+- 🌿 Background noise
+
+## 🔍 How it works
+A neural network is trained on acoustic data using the `librosa` and `TensorFlow` libraries. The dataset is split into training and validation sets, and performance is tracked over 30 epochs.
+
+## 🧠 Model Accuracy
+- ✅ Final Training Accuracy: ~100%
+- ✅ Final Validation Accuracy: ~94.8%
+
+## 🚀 How to Use
+```bash
+uv sync
+uv run src/ldth_drone_acoustics/setup/download_raw_data.py
+uv run train_model.py
+
+
 # LDTH 2025 - Helsing Drone Acoustics
 
 > Machine learning on drone acoustics for the London Defense Tech Hackathon, May 2025. Designed and run by Helsing.
