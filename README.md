@@ -9,8 +9,7 @@ This project was developed for the **London Defence Tech Hackathon 2025**. It us
 A neural network is trained on acoustic data using the `librosa` and `TensorFlow` libraries. The dataset is split into training and validation sets, and performance is tracked over 30 epochs.
 
 ## 🧠 Model Accuracy
-- ✅ Final Training Accuracy: ~100%
-- ✅ Final Validation Accuracy: ~94.8%
+na.
 
 ## 🚀 How to Use
 ```bash
